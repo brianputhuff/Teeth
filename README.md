@@ -4,7 +4,7 @@ Teeth is program which visually presents byte patterns in SG-1000 ROMs. Tile and
 
 Teeth fills up an internal buffer of 256KB with each byte of the ROM file and displays it in 8 pixel x 8 pixel blocks. Because the data for tiles and/or sprites may not occur exactly aligned within an 8 x 8 block, the image can be offset (shifted) by pressing **UP** or **DOWN** arrow keys (or alternatively **A** and **Z**). By shiftig the offest, the rendering will begin at subsequent bytes 1 - 7 aiding alignment. For example, if the SG-1000 rom for Hustle Chumy is loaded, adjusting the offset to start at byte 5 will skip the first 5 bytes, and will align visible character tiles and sprites.
 
-To save the full image with the currently selected offset, press s.
+To save the full image with the currently selected offset, press ***s***.
 
 ![Hustle Chumy output at offset 5](./sample-image_1.png)
 
