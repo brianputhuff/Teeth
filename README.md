@@ -1,4 +1,4 @@
-##Teeth
+## Teeth
 
 Teeth is program which visually presents byte patterns in SG-1000 ROMs. Tile and sprite data from SG-1000 games potentially manifest in the output, from which a screenshot can be saved for tile/sprite image extraction purposes using your favorite bitmap image editing software.
 
@@ -12,11 +12,11 @@ A zoomed version of whichever tile the cursor is currently restsing on will be e
 
 ![ZOOM 909](./sample-image_2.png)
 
-###Building
+### Building
 
 This program makes use of SDL2, so ensure you have installed the latest [SDL2](http://libsdl.org) library first. A makefile in included in this repository to make the executable.
 
-###Running
+### Running
 
 Run the executable with one argument, the filename of the SG-1000 ROM to be viewed. These usually have extension ".sg".
 
@@ -26,7 +26,7 @@ Example:
 
 To exit the program, close the program window or press **q**.
 
-###License (BSD)
+### License (BSD)
 
 Copyright (c) 2016, Brian Puthuff
 All rights reserved.
